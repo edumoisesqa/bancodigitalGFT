@@ -2,8 +2,12 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args){
-        Conta cc = new ContaCorrente();
-        Conta poupanca = new ContaPoupanca();
+        Cliente cliente = new Cliente();
+        cliente.setNome("Eduardo");
+        Conta cc = new ContaCorrente(cliente);
+        Conta poupanca = new ContaPoupanca(cliente);
+
+
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
