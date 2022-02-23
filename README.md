@@ -1,2 +1,2 @@
 # bancodigitalGFT
-Criando Banco Digital com Java e orinetacoes a Objetos.
+Criando Banco Digital com Java e orientacoes a Objetos.
