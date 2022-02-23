@@ -7,4 +7,14 @@ public class ContaCorrente extends Conta {
     super.conta = SEQUENCIAL;
 
 }
+
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("===Extrato conta corrente ===");
+       super.imprimirInfComuns();
+
+
+    }
+
+
 }
